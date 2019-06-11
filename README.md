@@ -1,5 +1,5 @@
 # GraphQL
-> O objetivo desse projeto é aplicar práticas estudadas usando [Graph QL](https://graphql.org/).
+> O objetivo desse projeto é aplicar práticas estudadas usando [GraphQL](https://graphql.org/).
 
 ## Executar os seguintes passos
 
