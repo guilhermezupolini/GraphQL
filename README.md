@@ -22,6 +22,7 @@
 ## Usando o GraphQL
 ##### Pelo browser é possível executar consultas do seguinte modo:
 
+###### getUsers()
 ```javascript
 {
   getUsers {
@@ -33,19 +34,20 @@
 }
 ```
 ###### Retorno
-    {
-    "data": {
-      "getUsers": [
-        {
-          "id": "1",
-          "name": "Teste",
-          "email": "teste@teste.com.br",
-          "password": "teste"
-        }
-      ]
+      {
+      "data": {
+        "getUsers": [
+          {
+            "id": "1",
+            "name": "Teste",
+            "email": "teste@teste.com.br",
+            "password": "teste"
+          }
+        ]
+      }
     }
-  }
 
+###### getUser(id: 1)
 ```javascript
 {
   getUser(id: 1){
