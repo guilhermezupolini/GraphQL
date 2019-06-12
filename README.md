@@ -17,7 +17,7 @@
 
 > O comando `knex init` pode ser executado dentro do diretório */src* do seu projeto para criar um arquivo chamado *knexfile.js* que possui as informações de conexão com o banco de dados.
 
-> Para executar o arquivo *database.js* caso queria realizar testes é só executar o **node**, como por exemplo `node config/database.js`.
+> Para executar o arquivo *database.js* caso queira realizar testes é só executar o **node**, como por exemplo `node config/database.js`.
 
 ## Usando o GraphQL
 ##### Pelo browser é possível executar consultas do seguinte modo:
