@@ -16,4 +16,4 @@ module.exports = knex
 // knex('users').select("*").then(resultado => console.log(resultado))
 // knex('users').first().then(resultado => console.log(resultado))
 // knex('users').where({id: 1}).first().then(resultado => console.log(resultado))
-// knex('users').where('name', 'like', '%Gui%').then(resultado => console.log(resultado))
+// knex('users').where({name: "Guilherme"}).then(resultado => console.log(resultado))
